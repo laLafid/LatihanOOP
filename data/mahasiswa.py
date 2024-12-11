@@ -2,9 +2,9 @@ from view.mahasiswa import kabul
 from view.input_form import forum as f 
 t=kabul.tabel
 class mahasiswa:
-    def __init__(self, nama, NIM):
+    def __init__(self, nama):
         self.nama = nama    
-        self.NIM = NIM
+        self.NIM = None
         self.Nilai_Tugas = None
         self.Nilai_UTS = None
         self.Nilai_UAS = None
