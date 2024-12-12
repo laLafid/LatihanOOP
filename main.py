@@ -14,13 +14,7 @@ class main:
             "6": a.exit,    "k" : a.exit
         }
         # isinya adalah kode warna menggunakan ANSII escape
-        r = "\033[0m"
-        h = "\033[1;32m"
-        b = "\033[1;34m"
-        m = "\033[1;31m"
-        k = "\033[1;33m"
-        u = "\033[1;35m"
-        p = "\033[1;37m"
+        r,h,b,m,k,u,p = "\033[0m","\033[1;32m","\033[1;34m","\033[1;31m","\033[1;33m","\033[1;35m","\033[1;37m"
         # perulangan yang akan menampilkan menu pilihan
         while True:
             print(
